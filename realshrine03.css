@@ -1,0 +1,658 @@
+.icon-site-logo {
+background: url('http://i.imgur.com/oDA0Ikx.png') repeat scroll 0% 0% transparent;
+background-position: -5px 0px;
+}
+#room .app-right {
+opacity: 0.86 !important;
+}            
+#room .app-header {
+opacity: 0.86 !important;
+background-color: rgba(28, 31, 37, 0.86);
+}
+#room .header-panel-bar {
+background: rgba(28, 31, 37, 0.75);
+}
+#room .history-button {
+background-color: rgba(28, 31, 37, 0.75);
+}
+#room .plug-menu {
+background-color: rgba(40, 44, 53, 0.94) !important;
+}
+#room .plug-menu .legal {
+background-color: rgba(68, 74, 89, 0.75) !important;
+}
+#room .settings {
+background-color: rgba(10, 10, 10, 0.89) !important;
+}
+#room .settings .header {
+background-color: rgba(28, 31, 37, 0.78) !important;
+}
+#chat {
+background-color: rgba(10, 10, 10, 0.75);
+}
+#dj-button {
+background-color: rgba(40, 44, 53, 0.75) !important;
+}
+#chat .message:nth-child(2n+1),#chat .mention:nth-child(2n+1),#chat .skip:nth-child(2n+1),#chat .moderation:nth-child(2n+1),#chat .emote:nth-child(2n+1),#chat .update:nth-child(2n+1),#chat .welcome:nth-child(2n+1) {
+background-color: rgba(17, 19, 23, 0.75);
+}
+#chat .mention {
+background-color: rgba(53, 75, 124, 0.75) !important;
+font-weight: 700;
+padding-left: 1px;
+border-left: #ac76ff 3px solid;
+}
+#chat .update .text {
+color: #00FF4A;
+}
+#chat-messages {
+}
+#chat-input-field {
+}
+#chat-messages .msg img {
+display: inherit !important;
+clear: both;
+}
+#chat-messages .msg video {
+display: inherit !important;
+}            
+#chat-messages .timestamp {
+display: inline-block !important;
+margin: 0px 5px 0px 5px;
+right: 0px;
+position: absolute;
+column-count: 2;
+word-wrap: break-word;
+width: 50px;
+column-gap: 2px;
+margin-right: 0;
+font-size: 9px;
+}
+#chat-messages .clickable {
+margin-bottom: 0px;
+}
+#chat .from {
+float: left;
+display: inline-block;
+z-index: 2;
+margin-bottom: 0px;
+position: initial;
+margin-right: 5px;
+}
+#chat .emote, #chat .mention, #chat .message, #chat .moderation, #chat .skip, #chat .system, #chat .update, #chat .welcome {
+min-height: initial;
+}
+#chat .msg {
+padding: 5px 8px 6px 15px;
+}
+#chat-messages .text {
+z-index: 1;
+display:block;
+padding-right: 40px;
+position: initial;
+padding-left: 0;
+}
+#chat-messages .text table {
+margin-top: 20px;
+width: 100%;
+}
+#chat-messages span.text {
+display:block;
+}
+#chat-messages .userspace-chatalert .text a {
+padding-left: 0px;
+z-index: 3;
+}
+#chat-messages .from .icon {
+width: 14px;
+height: 14px;
+top: 0px;
+}
+#chat .fromID-placeholder .un {
+margin-top: -3px;
+float: left;
+}
+#chat-messages .cm.promo {
+display: none !important;
+}            
+#chat .badge-box {
+color: #1C1F25;
+width: 0px;
+height: 0px;
+border-radius: 0px;
+}
+#chat-messages .userspace-chatalert .badge-box {
+position: absolute !important;
+width: 30px !important;
+height: 30px !important;
+}
+#chat-messages .userspace-chatalert {
+float: none !important;
+display: block !important;
+} 
+#chat-messages .userspace-chatalert span.timestamp {
+display: inline !important;
+position: absolute !important;
+column-count: initial;
+width: auto;
+margin-right: 10px;
+}
+#chat-messages .userspace-chatalert .msg {
+padding-left: 40px;
+}
+#chat-messages .userspace-chatalert .from {
+float: none !important;
+display: block !important;
+padding-left: 5px !important;
+}
+#chat-messages .userspace-chatalert.senpai .icon {
+background-position: 0 0 !important;
+background: url(http://i.imgur.com/ftr9tHo.png) !important;
+padding-left: 10px;
+}
+#chat .badge-box .no-badge .rsshit.sml .badge-box.no-badge {
+background-image: url('') !important;
+}
+#chat .icon .icon-p3 {
+background-image: url('') !important;
+}
+#chat .bdg {
+background-image: url('') !important;
+}
+#footer {
+background-color: rgba(0, 0, 0, 0.5) !important;
+}
+#footer-user .info {
+background-color: rgba(0, 0, 0, 0.8) !important;
+}
+#your-next-media .eta.dark-label {
+color: rgba(230, 219, 219, 1) !important;
+}
+#user-meta {
+color: #FFF;
+}
+#user-meta .label {
+color: #FFF;
+}
+#user-meta .avatar-thumb {
+background-color: rgba(255, 255, 255, 0.75);
+}
+#user-panel .score {
+background: rgba(28, 31, 37, 0.75);
+}
+#dj-button.is-locked .left,#dj-button.is-full .left,#vote .crowd-response.disabled .bottom {
+background: rgba(68, 74, 89, 0.75);
+}
+#dj-button.is-quit .left,#dj-button.is-leave .left,#playlist-delete-button:hover {
+background: linear-gradient(to bottom,rgba(244, 107, 64, 0.74) 0,rgba(240, 79, 48, 0.75) 100%);
+}
+#chat .emote, #chat .mention, #chat .message {
+-moz-animation: fadein 0.33s;
+-ms-animation: fadein 0.33s;
+-o-animation: fadein 0.33s;
+-webkit-animation: fadein 0.33s;
+animation: fadein 0.33s;
+background-color: #0E0E0F;
+}
+#chat .message:hover, #chat .emote:hover, #chat .update:hover {
+-moz-transition: 100ms linear 50ms;
+-o-transition: 100ms linear 50ms;
+-webkit-transition: 100ms linear 50ms;
+border-left: #FFFFFF 3px solid;
+padding-left: 3px;
+text-decoration: none;
+transition: 100ms linear 50ms;
+}
+#chat .moderation:hover {
+-moz-transition: 100ms linear 50ms;
+-o-transition: 100ms linear 50ms;
+-webkit-transition: 100ms linear 50ms;
+border-left: #ac76ff 3px solid;
+padding-left: 3px;
+text-decoration: none;
+transition: 100ms linear 50ms;
+}                       
+#chat [data-cid|=''].emote {
+border-left: #FF9900 3px solid !important;
+background-color: rgba(53, 75, 124, 0.75) !important;
+}
+#chat .rsshit.sml.rs-log-song-stats .badge-box, #chat .rsshit.sml.rs-log-now-playing .badge-box {
+ display:none;
+}
+#chat .rsshit.sml.rs-log-song-stats .from , #chat .rsshit.sml.rs-log-now-playing .from  {
+ float:right;
+}
+ #chat .rsshit.sml .badge-box {
+ display:none;
+color: #1C1F25;
+width: 0px;
+height: 0px;
+border-radius: 0px;
+}
+#chat .delete-button {
+  font-size: 8px !important;
+  padding: 4px;
+  top: -12px;
+  text-indent: 9999px;
+  white-space: nowrap;
+  width: 10px;
+  top: auto;
+}
+#volume .slider {
+ display: block !important;
+}
+#chat .delete-button:before {
+  position: absolute;
+  content: "x";
+  display: inline-block;
+  text-indent: 0px;
+  font-size: 12px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+}
+#chat-messages .kouhai .text, #chat-messages .senpai .text {
+ padding-right:0;
+}
+#chat .rsshit.context .timestamp, #chat .moderation .timestamp {
+ display:none !important;
+ }
+ #chat .rsshit.sml.context .msg .text, #chat .moderation .msg .text {
+ margin-left:0;
+ }
+ #chat .moderation .un {
+ padding-right:3px;
+ }
+ /*#chat .message:hover .msg, #chat .emote:hover .msg, #chat .update:hover .msg {
+ padding: 5px 3px 6px 15px;
+ transition: 100ms linear 50ms;
+}*/
+/*#chat [data-cid|=''].emote {
+display: none;
+}*/
+#chat .rsshit.sml.rs-log-song-stats .badge-box, #chat .rsshit.sml.rs-log-song-stats .from .timestamp, #chat .rsshit.sml.rs-log-now-playing .badge-box, #chat .rsshit.sml.rs-log-now-playing .from .timestamp {
+ display:none;
+}
+#chat .rsshit.sml.rs-log-song-stats .text, #chat .rsshit.sml.rs-log-now-playing .text {
+ font-weight:inherit;
+ color:#F6FF74;
+}
+#chat .from:hover .rcs-user-info {
+  z-index: 9999;
+  display: inline-block;
+}
+#chat .rcs-user-info {
+  position: absolute;
+  z-index: 0;
+  padding: 5px 0px;
+  box-shadow: inset 0 0 0 1px #a5dc42;
+  background: #282c35;
+  width: 120px;
+  text-align: center;
+  display: none;
+  right: 0;
+  left: 100%;
+  margin-left: 0;
+  top: -4px;
+}
+/*Some user related stuff*/
+#chat .rsshit.context .from:after{
+    content: '';
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    background: transparent;
+}
+/*Tohka*/
+ 
+[data-cid^="13760153-"] .msg .from .un {
+    position: relative;
+    left:-1px;
+    padding-left: 18px;
+    background-image: url('http://i.imgur.com/U45rOq8.png');
+    background-repeat: no-repeat;
+    background-position: -1px center;
+    background-size: 15px auto;
+}
+/*
+@-moz-keyframes fadein {
+from {opacity: 0;}
+to {opacity: 1;}
+}
+@-ms-keyframes fadein {
+from {opacity: 0;}
+to {opacity: 1;}
+}
+@-o-keyframes fadein {
+from {opacity: 0;}
+to {opacity: 1;}
+}
+@-webkit-keyframes fadein {
+from {opacity: 0;}
+to {opacity: 1;}
+}
+@keyframes fadein {
+from {opacity: 0;}
+to {opacity: 1;}
+}*/
+/*  
+body {
+background-size: 100% auto !important;
+background-attachment: fixed 0px 0px !important
+}*/
+#playlist-media-first-item .now-playing {
+background: #56348C !important;
+border-bottom: #9366da !important;
+}
+#dj-booth {
+background: url('https://i.imgur.com/Pz1rsvr.png') no-repeat 0px 135px;
+left: 265px;
+}
+#dj-canvas {
+margin-left: -30px;
+}
+.room-background {
+  left: 0 !important;
+}
+.room-background i{
+  display: none;
+}
+/*Vote Buttons*/
+#vote,
+#woot,
+#woot .top,
+#woot .bottom,
+#grab,
+#grab .top,
+#grab .bottom,
+#meh,
+#meh .top,
+#meh .bottom{
+        -webkit-transition:     all 0.3s ease;
+        -moz-transition:        all 0.3s ease;
+        -o-transition:          all 0.3s ease;
+        transition:             all 0.3s ease;
+}
+#woot,
+#grab,
+#meh {
+   background-color: rgba(0, 0, 0, 0.75) !important;
+}
+#vote .crowd-response.disabled .bottom {
+   background: rgba(0, 0, 0, 0.75);
+}
+.bottom,
+#woot.selected .bottom,
+#grab.selected .bottom,
+#meh.selected .bottom {
+    background: 0 0;
+}
+#vote >#woot.crowd-response:hover:not(.disabled) .bottom,
+#vote >#woot.crowd-response.selected:hover:not(.disabled) .top{
+    background: rgba(144, 173, 47, 0.5);
+}
+#woot .bottom {
+    background: rgba(144, 173, 47, 0.75);
+}
+#vote >#grab.crowd-response:hover:not(.disabled) .bottom,
+#vote >#grab.crowd-response.selected:hover:not(.disabled) .top{
+    background: rgba(170, 116, 255, 0.5);
+}
+#grab .bottom {
+    background: rgba(170, 116, 255, 0.75);
+}
+#vote >#meh.crowd-response:hover:not(.disabled) .bottom,
+#vote >#meh.crowd-response.selected:hover:not(.disabled) .top{
+    background: rgba(196, 46, 59, 0.5);
+}
+#meh .bottom {
+    background: rgba(196, 46, 59, 0.75);
+}
+/*Dj Button*/
+#dj-button {
+   background-color: rgba(0, 0, 0, 0.35) !important;
+}
+#dj-button
+{
+        -webkit-transition:     all 0.3s ease;
+        -moz-transition:        all 0.3s ease;
+        -o-transition:          all 0.3s ease;
+        transition:             all 0.3s ease;
+}
+#dj-button.is-quit:hover{
+    opacity:                1;
+    -webkit-box-shadow:     inset 230px 0 0 0 rgba(244, 107, 64, 0.75) !important;
+    -moz-box-shadow:        inset 230px 0 0 0 rgba(244, 107, 64, 0.75) !important;
+    -o-box-shadow:          inset 230px 0 0 0 rgba(244, 107, 64, 0.75) !important;
+    box-shadow:             inset 230px 0 0 0 rgba(244, 107, 64, 0.75) !important;
+}
+#dj-button.is-leave:hover{
+    opacity:                1;
+    -webkit-box-shadow:     inset 230px 0 0 0 rgba(244, 107, 64, 0.75) !important;
+    -moz-box-shadow:        inset 230px 0 0 0 rgba(244, 107, 64, 0.75) !important;
+    -o-box-shadow:          inset 230px 0 0 0 rgba(244, 107, 64, 0.75) !important;
+    box-shadow:             inset 230px 0 0 0 rgba(244, 107, 64, 0.75) !important;
+}
+#dj-button.is-wait:hover{
+    opacity:                1;
+    -webkit-box-shadow:     inset 230px 0 0 0 rgba(0, 181, 230, 0.75) !important;
+    -moz-box-shadow:        inset 230px 0 0 0 rgba(0, 181, 230, 0.75) !important;
+    -o-box-shadow:          inset 230px 0 0 0 rgba(0, 181, 230, 0.75) !important;
+    box-shadow:             inset 230px 0 0 0 rgba(0, 181, 230, 0.75) !important;
+}
+#dj-button.is-locked:hover{
+    opacity:                1;
+    -webkit-box-shadow:     inset 230px 0 0 0 rgba(115, 75, 169, 0.75) !important;
+    -moz-box-shadow:        inset 230px 0 0 0 rgba(115, 75, 169, 0.75) !important;
+    -o-box-shadow:          inset 230px 0 0 0 rgba(115, 75, 169, 0.75) !important;
+    box-shadow:             inset 230px 0 0 0 rgba(115, 75, 169, 0.75) !important;
+}
+#dj-button.is-join:hover{
+    opacity:                1;
+    -webkit-box-shadow:     inset 230px 0 0 0 rgba(0, 181, 230, 0.75) !important;
+    -moz-box-shadow:        inset 230px 0 0 0 rgba(0, 181, 230, 0.75) !important;
+    -o-box-shadow:          inset 230px 0 0 0 rgba(0, 181, 230, 0.75) !important;
+    box-shadow:             inset 230px 0 0 0 rgba(0, 181, 230, 0.75) !important;
+}
+#woot:hover, #woot .emote:hover, #woot .update:hover {
+                -moz-transition: 100ms linear 50ms;
+                -o-transition: 100ms linear 50ms;
+                -webkit-transition: 100ms linear 50ms;
+                border-top: #00FF00 3px solid;
+                padding-top: 0px;
+                text-decoration: none;
+                transition: 100ms linear 50ms;
+}
+#grab-rs {
+    background: rgba(222, 86, 255, 0.75);
+    -webkit-animation:fadein 0.25s;
+    -moz-animation:fadein 0.25s;
+    -ms-animation:fadein 0.25s;
+    -o-animation:fadein 0.25s;
+    animation:fadein 0.50s;
+}
+#grab:hover, #grab .emote:hover, #grab .update:hover {
+                -moz-transition: 100ms linear 50ms;
+                -o-transition: 100ms linear 50ms;
+                -webkit-transition: 100ms linear 50ms;
+                border-top: #BF00FF 3px solid;
+                padding-top: 0px;
+                text-decoration: none;
+                transition: 100ms linear 50ms;
+}
+#meh-rs {
+    background: rgba(255, 39, 54, 0.75);
+	-webkit-animation:fadein 0.25s;
+    -moz-animation:fadein 0.25s;
+    -ms-animation:fadein 0.25s;
+    -o-animation:fadein 0.25s;
+    animation:fadein 0.50s;
+}
+#meh:hover, #meh .emote:hover, #meh .update:hover {
+                -moz-transition: 100ms linear 50ms;
+                -o-transition: 100ms linear 50ms;
+                -webkit-transition: 100ms linear 50ms;
+                border-top: #FF0000 3px solid;
+                padding-top: 0px;
+                text-decoration: none;
+                transition: 100ms linear 50ms;
+}
+#dj-button.is-locked .left,#dj-button.is-full .left,#vote .crowd-response.disabled .bottom {
+    background: #222224;
+}
+#dj-button.is-quit .left, #dj-button.is-leave .left, #dj-button.is-wait .left, #dj-button.is-locked .left, #dj-button.is-full .left {
+background: #121214;
+border-radius: 8px;
+border-left-width: 4px;
+}
+#dj-button.is-quit .left {
+border-left: 3px solid #f46b40;
+}
+#dj-button.is-leave .left {
+border-left: 3px solid #f46b40;
+}
+#dj-button.is-wait .left {
+border-left: 3px solid #00b5e6;
+}
+#dj-button.is-locked .left {
+border-left: 3px solid #734ba9;
+}
+#dj-button.is-full .left {
+border-left: 3px solid #CCCCCC;
+}
+#dj-button {
+background: #222224;
+border-radius: 8px;
+}
+#woot-rs {
+    background: rgba(0, 156, 34, 0.75);
+    -webkit-animation:fadein 0.25s;
+    -moz-animation:fadein 0.25s;
+    -ms-animation:fadein 0.25s;
+    -o-animation:fadein 0.25s;
+    animation:fadein 0.50s;
+}
+#grab-rs {
+    background: rgba(222, 86, 255, 0.75);
+    -webkit-animation:fadein 0.25s;
+    -moz-animation:fadein 0.25s;
+    -ms-animation:fadein 0.25s;
+    -o-animation:fadein 0.25s;
+    animation:fadein 0.50s;
+}
+#meh-rs {
+    background: rgba(255, 39, 54, 0.75);
+	-webkit-animation: fadein 0.25s;
+    -moz-animation: fadein 0.25s;
+    -ms-animation: fadein 0.25s;
+    -o-animation: fadein 0.25s;
+    animation: fadein 0.50s;
+}
+#toast-notifications .notification .right:hover {
+   background: rgba(0, 0, 0, 0.35) !important;
+}
+#footer {
+   background-color: rgba(0, 0, 0, 0.75) !important;
+}
+#settings .header {
+   background-color: rgba(28, 31, 37, 0.78) !important;
+}
+#settings {
+   background-color: rgba(10, 10, 10, 0.89) !important;
+}
+#room .app-right,
+#room .app-header{
+   opacity: 0.86 !important;
+}           
+#room .header-panel-bar,
+#header-panel-bar {
+   background: 0.75;
+}
+#room .history-button,
+#history-button {
+   background-color: 0.75;
+}
+#room .plug-menu {
+   background-color: rgba(40, 44, 53, 0.94) !important;
+}
+#room .plug-menu .legal {
+   background-color: rgba(68, 74, 89, 0.75) !important;
+}
+#room .settings {
+   background-color: rgba(10, 10, 10, 0.89) !important;
+}
+#room .settings .header {
+   background-color: rgba(28, 31, 37, 0.75) !important;
+}
+#app-header .left-meta {
+   color: rgba(40, 44, 53, 0.94) !important;
+}
+#playlist-button {
+   background: rgba(0, 191, 255, 0.75) !important;
+}
+#user-lists .list.staff .group {
+   background: linear-gradient(to right,rgba(0, 0, 0, 0) 0,rgba(0, 0, 0, 1) 100%) !important;
+}
+#plug-menu {
+   background-color: rgba(40, 44, 53, 0.94) !important;
+}
+#plug-menu .legal {
+   background-color: rgba(68, 74, 89, 0.75) !important;
+}
+#user-rollover {
+   background: rgba(0, 0, 0, 0.75) !important;
+}
+#user-rollover .info{
+    background: rgba(0, 0, 0, 0.75);
+}
+#user-rollover.expand.chat .arrow-down {
+   border-left: 8px solid rgba(0, 0, 0, 0.75) !important;
+}
+#user-rollover .arrow-down {
+   border-top: 8px solid rgba(0, 0, 0, 0.75) !important;
+}
+#room-settings,
+#user-view {
+    background: rgba(0, 0, 0, 0.75) !important;
+}
+#room-settings-menu,
+#user-menu {
+    background: rgba(0, 0, 0, 0.75) !important;
+}
+#user-inventory .cell {
+	background: rgba(28, 31, 37, 0.75) !important;
+}
+#user-inventory .cell:hover {
+	background: rgba(28, 31, 37, 0.75) !important;
+}
+.user-content .grid .cell .top{
+    opacity: 0.6 !important;
+}
+.experience .xp .bar {
+    background: rgba(40, 44, 53, 0.75) !important;
+}
+.experience .xp .bar .progress {
+    background: rgba(0, 156, 221, 0.75) !important;
+}
+#playlist-panel {
+    background: rgba(0, 0, 0, 0.75) !important;
+}
+#playlist-menu {
+    background: rgba(0, 0, 0, 0.5)!important;
+}
+#user-rollover .actions .action{
+box-shadow: inset 1px 1px 0 0 rgba(0, 0, 0, 0.75);
+}
+#footer-user .info {
+    background: rgba(0, 0, 0, 0.75)!important;
+}
+.back {
+    background: rgba(0, 0, 0, 0.75) !important;
+}
+.back:hover {
+    background: rgba(0, 0, 0, 0.75) !important;
+}
